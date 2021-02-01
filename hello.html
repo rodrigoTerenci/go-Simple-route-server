@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Peoples</title>
+</head>
+<body>
+    <h1>Lista Pessoas</h1>
+    <ul>
+        {{range .}}
+        <li>Nome: {{.Name}} - {{.LastName}} Idade: {{.Age}}</li>
+        {{end}}
+    </ul>
+</body>
+</html>
